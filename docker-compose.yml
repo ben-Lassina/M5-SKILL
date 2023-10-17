@@ -33,7 +33,7 @@ services:
       MYSQL_DATABASE: voorbeeld_db
       MYSQL_USER: db_user
       MYSQL_PASSWORD: mijn_p@ss#
-      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
+      MYSQL_ROOT_PASSWORD: 
     ports: 
       - 3307:3306
     volumes:
@@ -45,7 +45,7 @@ services:
     environment:
       PMA_HOST: mariadb
       PMA_USER: root
-      PMA_PASSWORD: 4dy5qwtrsag#!sad
+      PMA_PASSWORD: 
     ports:
       - "8088:80"
 
